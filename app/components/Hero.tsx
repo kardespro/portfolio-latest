@@ -27,7 +27,7 @@ export default function Hero() {
         >
           <div className="relative w-[200px] h-[200px] ml-4 md:mx-auto md:w-[400px] md:h-[400px]">
             <Image
-              src="https://avatars.githubusercontent.com/u/59221034?s=400&u=467d7330f5108f682fb7aae7c846f4722dc76050&v=4"
+              src="https://avatars.githubusercontent.com/u/61694826?v=4"
               alt="Profile Image"
               fill
               priority
