@@ -1,13 +1,13 @@
 export const projects = [
   {
-    title: "Project One",
+    title: "Discord.place",
     description: "A modern web application built with Next.js and TypeScript",
-    image: "https://avatars.githubusercontent.com/u/59221034?s=400&u=467d7330f5108f682fb7aae7c846f4722dc76050&v=4",
+    image: "https://emirhan.one/_next/image?url=%2Fimages%2Fcdn%2Fdiscordplace.png&w=1920&q=75",
     link: "https://github.com/Nicat-dcw/project-one",
-    tags: ["Next.js", "TypeScript", "Tailwind CSS"]
+    tags: ["Next.js", "Javascript", "Tailwind CSS", "Mongodb"]
   },
   {
-    title: "Project Two",
+    title: "Lantern",
     description: "Full-stack application with real-time features",
     image: "/vercel.svg",
     link: "https://github.com/yourusername/project-two",
