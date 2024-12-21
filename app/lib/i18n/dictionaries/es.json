@@ -1,0 +1,35 @@
+{
+  "common": {
+    "welcome": "Bienvenido",
+    "theme": {
+      "light": "Claro",
+      "dark": "Oscuro",
+      "system": "Sistema"
+    }
+  },
+  "hero": {
+    "title": "Desarrollador",
+    "titleHighlight": "Full Stack",
+    "description": "Soy estudiante universitario y tengo una ferviente pasión por la inteligencia artificial y me gusta usar typescript para mis proyectos",
+    "github": "Ver GitHub",
+    "work": "Ver mi trabajo",
+    "techStack": "Tecnologías"
+  },
+  "navbar": {
+    "projects": "Proyectos",
+    "blog": "Blog",
+    "social": "Social",
+    "github": "Github",
+    "settings": "Ajustes"
+  },
+  "projects": {
+    "title": "Proyectos",
+    "titleHighlight": "Destacados",
+    "subtitle": "Aquí hay algunos de mis proyectos recientes que muestran mis habilidades y experiencia"
+  },
+  "settings": {
+    "title": "Ajustes",
+    "theme": "Tema",
+    "language": "Idioma"
+  }
+} 
