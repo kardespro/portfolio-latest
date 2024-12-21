@@ -11,7 +11,7 @@ export default function Hero() {
   const t = useTranslations();
 
   return (
-    <div className="h-[calc(100vh-80px)] flex flex-col justify-center">
+    <div className="min-h-[calc(100vh-4rem)] pt-16 md:pt-20 flex flex-col justify-center">
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
@@ -23,9 +23,9 @@ export default function Hero() {
           initial={{ opacity: 0, scale: 0.5 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.5 }}
-          className="order-2 md:order-1"
+          className="order-1 md:order-1"
         >
-          <div className="relative w-[280px] h-[280px] mx-auto md:w-[400px] md:h-[400px]">
+          <div className="relative w-[200px] h-[200px] ml-4 md:mx-auto md:w-[400px] md:h-[400px]">
             <Image
               src="https://avatars.githubusercontent.com/u/59221034?s=400&u=467d7330f5108f682fb7aae7c846f4722dc76050&v=4"
               alt="Profile Image"
@@ -37,7 +37,7 @@ export default function Hero() {
         </motion.div>
 
         {/* Content */}
-        <div className="space-y-10 order-1 md:order-2">
+        <div className="space-y-10 order-2 md:order-2">
           <div className="space-y-2">
             <h1 className="text-4xl font-bold sm:text-5xl lg:text-7xl">
               {t.hero.title}{" "}

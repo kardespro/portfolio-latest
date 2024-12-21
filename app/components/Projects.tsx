@@ -42,7 +42,7 @@ export default function Projects() {
               <div className="absolute inset-0 bg-gradient-to-t from-purple-900/80 via-purple-900/20 to-transparent transition-opacity duration-300" />
 
               <div className="absolute inset-0 p-6 flex flex-col justify-end">
-                <div className="space-y-3">
+                <div className="space-y-3 mt-12">
                   <h3 className="text-2xl font-bold text-white">
                     {project.title}
                   </h3>
