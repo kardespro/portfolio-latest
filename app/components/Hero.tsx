@@ -52,7 +52,7 @@ export default function Hero() {
 
           <div className="flex flex-col gap-3 sm:flex-row sm:items-center">
             <Link
-              href="https://github.com/Nicat-dcw"
+              href="https://github.com/kardespro"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center gap-2 px-6 py-3 text-sm font-medium text-white transition-colors bg-gray-900 rounded-lg hover:bg-gray-800 dark:bg-white dark:text-gray-900 dark:hover:bg-gray-100"
@@ -73,7 +73,7 @@ export default function Hero() {
             <div className="space-y-1">
               <p className="text-sm text-gray-500 dark:text-gray-400">{t.hero.techStack}</p>
               <div className="flex flex-wrap gap-2">
-                {["React", "Next.js", "TypeScript", "Node.js", "Tailwind"].map((tech) => (
+                {["React", "Next.js", "TypeScript", "Node.js", "Tailwind", "Mongodb"].map((tech) => (
                   <span
                     key={tech}
                     className="px-3 py-1 text-xs font-medium rounded-full bg-gray-100 dark:bg-[#212121]"
