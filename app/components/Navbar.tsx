@@ -54,7 +54,7 @@ export default function Navbar() {
             {/* Right side - Github + Settings */}
             <div className="flex items-center gap-2">
               <Link
-                href="https://github.com/Nicat-dcw"
+                href="https://github.com/kardespro"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-4 py-1 rounded hover:bg-gray-100 dark:hover:bg-[#212121] text-gray-800 dark:text-gray-200 transition-colors"
