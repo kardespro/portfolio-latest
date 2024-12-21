@@ -5,8 +5,8 @@ import { I18nProvider } from "./components/i18n-provider";
 import { Suspense } from "react";
 import { LoadingFallback } from "./components/LoadingFallback";
 import "./globals.css";
-import { getDictionary } from "./lib/i18n/dictionaries";
 import { LanguageProvider } from "./components/language-provider";
+import Navbar from "./components/Navbar";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -44,9 +44,12 @@ export default async function RootLayout({
             disableTransitionOnChange
           >
             <I18nProvider>
-              <Suspense fallback={<LoadingFallback />}>
-                {children}
-              </Suspense>
+              <div className="max-w-7xl mx-auto px-4 min-h-screen dark:bg-transparent transition-colors">
+                <Navbar />
+                <Suspense fallback={<LoadingFallback />}>
+                  {children}
+                </Suspense>
+              </div>
             </I18nProvider>
           </ThemeProvider>
         </LanguageProvider>

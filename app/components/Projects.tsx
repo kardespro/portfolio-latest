@@ -46,7 +46,7 @@ export default function Projects() {
                   <h3 className="text-2xl font-bold text-white">
                     {project.title}
                   </h3>
-                  <p className="text-purple-100 line-clamp-2">
+                  <p className="text-purple-100 line-clamp-2 text-[15px]">
                     {project.description}
                   </p>
                   <div className="flex flex-wrap gap-2">
