@@ -1,9 +1,9 @@
 export const projects = [
   {
     title: "Discord.place",
-    description: "A modern web application built with Next.js and TypeScript",
+    description: "All things related to Discord in one place.",
     image: "https://emirhan.one/_next/image?url=%2Fimages%2Fcdn%2Fdiscordplace.png&w=1920&q=75",
-    link: "https://github.com/Nicat-dcw/project-one",
+    link: "https://github.com/discordplace/discord.place",
     tags: ["Next.js", "Javascript", "Tailwind CSS", "Mongodb"]
   },
   {
