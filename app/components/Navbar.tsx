@@ -19,7 +19,7 @@ export default function Navbar() {
             {/* Left side - Profile */}
             <div className="flex items-center gap-3">
               <div>
-                <h1 className="font-medium dark:text-white">Nicat-dcw</h1>
+                <h1 className="font-medium dark:text-white">Nego.one</h1>
                 <div className="flex items-center gap-2">
                   <span className="text-sm bg-blue-100 dark:bg-blue-900 text-blue-900 dark:text-blue-300 px-2 py-0.5 rounded-full font-medium">
                     beta
